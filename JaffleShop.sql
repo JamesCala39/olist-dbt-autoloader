@@ -1,0 +1,1 @@
+SELECT * FROM default.jaffle_shop_customers
