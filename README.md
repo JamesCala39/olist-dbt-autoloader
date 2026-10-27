@@ -1,6 +1,6 @@
 # Olist Autoloader Data Warehouse Project
 
-This project is a Databricks project creating a Data Warehouse using Databricks autoloader.The dataset used is the Olist Brazilian E-commerce Dataset found on kaggle. The warehouse is made using medallion architecture. After autoloading the bronze tables, the silver tables are staged using dbt and followed up with the creation of gold tables for aggegrations.
+This project is a Databricks project creating a Data Warehouse using Databricks autoloader. The dataset used is the Olist Brazilian E-commerce Dataset found on kaggle containing 9 csv files. The warehouse is made using medallion architecture. After autoloading the bronze tables, the silver tables are staged using dbt and followed up with the creation of gold tables for aggegrations.
 
 The kaggle dataset can be found here:
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective 
-Develop a modern data warehouse using Databricks to consolidate slles data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using Databricks to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
   -  **Data Sources**: Import data from one dataset provided as multiple CSV files.
